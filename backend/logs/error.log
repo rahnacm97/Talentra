@@ -1,0 +1,279 @@
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-05T05:34:46.192Z"}
+{"level":"error","message":"WebSocket authentication failed: Invalid or expired token","stack":"Error: Invalid or expired token\n    at JwtService.verifyToken (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\utils\\jwtUtils.ts:43:13)\n    at Namespace.<anonymous> (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\app.ts:51:38)\n    at Namespace.emit (node:events:518:28)\n    at Namespace.emitReserved (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\socket.io\\dist\\typed-events.js:56:22)\n    at Namespace._doConnect (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\socket.io\\dist\\namespace.js:276:14)\n    at D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\socket.io\\dist\\namespace.js:238:22\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-08-05T05:34:46.197Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-05T05:35:37.315Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-05T05:35:37.318Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-05T05:35:43.969Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-05T05:35:43.972Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-06T08:37:29.445Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-06T08:37:29.452Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"PATCH","path":"/candidates/688862fa6643519330657e43/block","timestamp":"2025-08-06T11:52:41.481Z"}
+{"level":"error","message":"Emitted block event to candidate 688862fa6643519330657e43","timestamp":"2025-08-06T11:53:13.457Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-06T14:03:04.810Z"}
+{"level":"error","message":"WebSocket authentication failed: Invalid or expired token","stack":"Error: Invalid or expired token\n    at JwtService.verifyToken (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\utils\\jwtUtils.ts:35:13)\n    at Namespace.<anonymous> (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\app.ts:49:38)\n    at Namespace.emit (node:events:518:28)\n    at Namespace.emitReserved (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\socket.io\\dist\\typed-events.js:56:22)\n    at Namespace._doConnect (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\socket.io\\dist\\namespace.js:276:14)\n    at D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\socket.io\\dist\\namespace.js:238:22\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-08-06T14:03:04.817Z"}
+{"level":"error","message":"Emitted block event to candidate 688862fa6643519330657e43","timestamp":"2025-08-06T14:03:49.509Z"}
+{"level":"error","message":"Emitted block event to candidate 688862fa6643519330657e43","timestamp":"2025-08-06T14:20:22.419Z"}
+{"level":"error","message":"Emitted block event to candidate 688862fa6643519330657e43","timestamp":"2025-08-06T14:21:36.052Z"}
+{"level":"error","message":"Emitted block event to candidate 688862fa6643519330657e43","timestamp":"2025-08-06T14:38:38.287Z"}
+{"level":"error","message":"Emitted block event to candidate 688862fa6643519330657e43","timestamp":"2025-08-06T14:50:06.640Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-06T16:05:52.082Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-06T16:05:52.086Z"}
+{"level":"error","message":"AdminCandidateService toggleCandidateBlocked error for ID 688862fa6643519330657e43: Cannot read properties of undefined (reading 'emitUserBlocked') Cannot read properties of undefined (reading 'emitUserBlocked')","stack":"TypeError: Cannot read properties of undefined (reading 'emitUserBlocked')\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:97:23)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:125:25)","timestamp":"2025-08-06T16:16:17.750Z"}
+{"level":"error","message":"AdminCandidateController toggleCandidateBlocked error for ID 688862fa6643519330657e43: Failed to toggle candidate blocked status Failed to toggle candidate blocked status","stack":"Error: Failed to toggle candidate blocked status\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:103:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:125:25)","timestamp":"2025-08-06T16:16:17.752Z"}
+{"level":"error","message":"Error 500: Failed to toggle candidate blocked status","method":"PATCH","path":"/api/admin/candidates/688862fa6643519330657e43/block","stack":"Error: Failed to toggle candidate blocked status\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:103:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:125:25)","timestamp":"2025-08-06T16:16:17.753Z"}
+{"level":"error","message":"AdminCandidateService toggleCandidateBlocked error for ID 688862fa6643519330657e43: Cannot read properties of undefined (reading 'emitUserBlocked') Cannot read properties of undefined (reading 'emitUserBlocked')","stack":"TypeError: Cannot read properties of undefined (reading 'emitUserBlocked')\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:97:23)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:107:25)","timestamp":"2025-08-06T16:19:25.217Z"}
+{"level":"error","message":"AdminCandidateController toggleCandidateBlocked error for ID 688862fa6643519330657e43: Failed to toggle candidate blocked status Failed to toggle candidate blocked status","stack":"Error: Failed to toggle candidate blocked status\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:103:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:107:25)","timestamp":"2025-08-06T16:19:25.218Z"}
+{"level":"error","message":"Error 500: Failed to toggle candidate blocked status","method":"PATCH","path":"/api/admin/candidates/688862fa6643519330657e43/block","stack":"Error: Failed to toggle candidate blocked status\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:103:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:107:25)","timestamp":"2025-08-06T16:19:25.220Z"}
+{"level":"error","message":"AdminCandidateService toggleCandidateBlocked error for ID 688862fa6643519330657e43: Cannot read properties of undefined (reading 'emitUserBlocked') Cannot read properties of undefined (reading 'emitUserBlocked')","stack":"TypeError: Cannot read properties of undefined (reading 'emitUserBlocked')\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:152:28)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:106:25)","timestamp":"2025-08-06T16:24:14.147Z"}
+{"level":"error","message":"AdminCandidateController toggleCandidateBlocked error for ID 688862fa6643519330657e43: Failed to toggle candidate blocked status Failed to toggle candidate blocked status","stack":"Error: Failed to toggle candidate blocked status\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:158:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:106:25)","timestamp":"2025-08-06T16:24:14.149Z"}
+{"level":"error","message":"Error 500: Failed to toggle candidate blocked status","method":"PATCH","path":"/api/admin/candidates/688862fa6643519330657e43/block","stack":"Error: Failed to toggle candidate blocked status\n    at AdminCandidateService.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\admin\\admin.candidateService.ts:158:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AdminCandidateController.toggleCandidateBlocked (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\admin\\admin.candidateController.ts:106:25)","timestamp":"2025-08-06T16:24:14.150Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-07T06:17:33.199Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-07T06:17:33.202Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-07T06:17:33.210Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-07T11:36:04.705Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-07T11:36:04.830Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-07T11:36:04.857Z"}
+{"level":"error","message":"Google Sign-In error: Cannot read properties of undefined (reading 'googleSignIn')","stack":"TypeError: Cannot read properties of undefined (reading 'googleSignIn')\n    at AuthGoogleController.signIn (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.googleController.ts:96:29)\n    at AuthGoogleController.googleSignIn (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.googleController.ts:83:33)\n    at Layer.handleRequest (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\router\\index.js:291:5)","timestamp":"2025-08-07T14:35:20.429Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-07T15:02:42.239Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"PATCH","path":"/candidates/688862fa6643519330657e43/block","timestamp":"2025-08-07T15:02:52.442Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T04:18:21.186Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T04:18:21.188Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T04:18:21.191Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T05:40:36.979Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T05:40:36.983Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T05:40:36.990Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T05:54:46.086Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-08T05:55:41.824Z"}
+{"level":"error","message":"Signup failed: User already exists","timestamp":"2025-08-08T05:59:06.750Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T06:29:16.118Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T06:30:15.867Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-08T06:31:13.645Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T06:40:26.574Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-08T06:41:21.656Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T06:54:08.196Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T06:57:06.210Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T06:57:06.216Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T06:57:18.196Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T06:57:19.182Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T07:28:58.634Z"}
+{"level":"error","message":"Reset password failed for email anu@gmail.com: Cannot read properties of undefined (reading 'toLowerCase')","timestamp":"2025-08-08T07:29:21.302Z"}
+{"level":"error","message":"Reset password failed for email anu@gmail.com: Cannot read properties of undefined (reading 'toLowerCase')","timestamp":"2025-08-08T07:30:17.114Z"}
+{"level":"error","message":"Reset password failed for email anu@gmail.com: Cannot read properties of undefined (reading 'toLowerCase')","timestamp":"2025-08-08T07:30:29.444Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T07:35:41.256Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T07:35:41.262Z"}
+{"level":"error","message":"Reset password failed for email rahnacm97@gmail.com: Cannot read properties of undefined (reading 'toLowerCase')","timestamp":"2025-08-08T07:36:30.497Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T08:13:42.161Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-08T08:16:42.476Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T08:44:50.191Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-08T08:46:04.720Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-08T08:47:44.391Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-08T08:47:44.396Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T09:23:29.744Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T09:23:32.198Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T09:26:03.187Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-08T09:26:03.191Z"}
+{"level":"error","message":"Forgot password: No account found with email shabeer@gmail.com","timestamp":"2025-08-08T11:36:36.035Z"}
+{"level":"error","message":"Forgot password failed for email shabeer@gmail.com: No account found with this email","timestamp":"2025-08-08T11:36:36.035Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T11:37:15.041Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: workscape.candidates index: email_1 dup key: { email: \"rahnacm97@gmail.com\" }","index":0,"keyPattern":{"email":1},"keyValue":{"email":"rahnacm97@gmail.com"}},"index":0,"keyPattern":{"email":1},"keyValue":{"email":"rahnacm97@gmail.com"},"level":"error","message":"CandidateRepository create error: E11000 duplicate key error collection: workscape.candidates index: email_1 dup key: { email: \"rahnacm97@gmail.com\" }","stack":"MongoServerError: E11000 duplicate key error collection: workscape.candidates index: email_1 dup key: { email: \"rahnacm97@gmail.com\" }\n    at InsertOneOperation.execute (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\mongoose\\node_modules\\mongodb\\src\\operations\\insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at tryOperation (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\mongoose\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:283:14)\n    at executeOperation (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\mongoose\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:115:12)\n    at Collection.insertOne (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\mongoose\\node_modules\\mongodb\\src\\collection.ts:286:12)","timestamp":"2025-08-08T13:17:24.034Z"}
+{"level":"error","message":"OTP verification failed: Failed to create candidate","timestamp":"2025-08-08T13:17:24.035Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-08T13:26:50.630Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-08T13:26:50.635Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-08T13:31:35.022Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-08T13:32:30.229Z"}
+{"level":"error","message":"Blocked user attempted login: hr@elexa.com, role: employer","timestamp":"2025-08-08T13:34:50.772Z"}
+{"level":"error","message":"Login failed for email hr@elexa.com: Your account has been blocked by admin","timestamp":"2025-08-08T13:34:50.772Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-08T13:34:50.772Z"}
+{"level":"error","message":"Google Sign-In error: Cannot read properties of undefined (reading 'formatSuccess')","timestamp":"2025-08-08T13:40:46.183Z"}
+{"level":"error","message":"Error 500: Cannot read properties of undefined (reading 'formatError')","method":"POST","path":"/api/auth/google-signin","stack":"TypeError: Cannot read properties of undefined (reading 'formatError')\n    at AuthGoogleController.googleSignIn (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.googleController.ts:73:30)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-08T13:40:46.188Z"}
+{"level":"error","message":"Blocked user attempted login: hr@vibgyor.com, role: employer","timestamp":"2025-08-09T04:15:44.947Z"}
+{"level":"error","message":"Login failed for email hr@vibgyor.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:15:44.947Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:15:44.947Z"}
+{"level":"error","message":"Blocked user attempted login: hr@vibgyor.com, role: employer","timestamp":"2025-08-09T04:15:56.782Z"}
+{"level":"error","message":"Login failed for email hr@vibgyor.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:15:56.782Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:15:56.782Z"}
+{"level":"error","message":"Blocked user attempted login: hr@vibgyor.com, role: employer","timestamp":"2025-08-09T04:17:19.163Z"}
+{"level":"error","message":"Login failed for email hr@vibgyor.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:17:19.163Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:17:19.164Z"}
+{"level":"error","message":"Blocked user attempted login: hr@vibgyor.com, role: employer","timestamp":"2025-08-09T04:17:33.569Z"}
+{"level":"error","message":"Login failed for email hr@vibgyor.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:17:33.569Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:17:33.569Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:17:55.329Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:17:55.330Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:17:55.330Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:22:31.774Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:22:31.774Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:22:31.775Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:24:44.089Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:24:44.089Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:24:44.090Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:25:40.031Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:25:40.031Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:25:40.031Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:26:04.268Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:26:04.268Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:26:04.268Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:26:12.505Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:26:12.505Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:26:12.505Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:26:14.692Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:26:14.693Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:26:14.693Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:26:51.354Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:26:51.354Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:26:51.354Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:27:18.163Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:27:18.164Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:27:18.164Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T04:28:22.633Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:28:22.634Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:28:22.634Z"}
+{"level":"error","message":"Blocked user attempted login: hr@vibgyor.com, role: employer","timestamp":"2025-08-09T04:28:38.143Z"}
+{"level":"error","message":"Login failed for email hr@vibgyor.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:28:38.143Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:28:38.143Z"}
+{"level":"error","message":"Blocked user attempted login: hr@vibgyor.com, role: employer","timestamp":"2025-08-09T04:31:28.410Z"}
+{"level":"error","message":"Login failed for email hr@vibgyor.com: Your account has been blocked by admin","timestamp":"2025-08-09T04:31:28.411Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T04:31:28.411Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-09T05:13:49.581Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-09T05:13:49.581Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-09T05:13:49.581Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-09T05:18:42.195Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T06:33:24.516Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T06:33:24.519Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T07:57:35.187Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T07:57:35.211Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T08:16:20.402Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T08:16:20.407Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T08:16:43.790Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T08:16:43.795Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.233Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.239Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.252Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.261Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.334Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.347Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.369Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.389Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T09:27:29.399Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:58.793Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:58.800Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:58.803Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:58.810Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:58.814Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:58.817Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:58.823Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:58.826Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:59.186Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:20:59.189Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:00.182Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:00.185Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:00.187Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:00.189Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:01.179Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:01.183Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:02.184Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:02.187Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:02.189Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:02.192Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:03.184Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:03.186Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:41.777Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:21:41.785Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:39:09.250Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:55:09.348Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:55:09.353Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:55:25.890Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T11:55:25.897Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:04:47.191Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:04:47.193Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:07:05.612Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:07:05.616Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:07:20.364Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:07:20.369Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:08:11.497Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:08:11.501Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:08:22.589Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:08:22.593Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:09:21.100Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:09:21.105Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:09:59.646Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:09:59.648Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:14:16.548Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:14:16.558Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:17:05.072Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:17:05.076Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:07.582Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:07.584Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:08.463Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:08.467Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:08.712Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:08.717Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:08.857Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:08.860Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:09.003Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:09.006Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:09.225Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:09.228Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:51.637Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:18:51.640Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:19:05.092Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:19:05.097Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:19:34.426Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T12:19:34.430Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T13:30:42.436Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T13:30:42.441Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T13:31:08.137Z"}
+{"level":"error","message":"JWT verification failed: jwt expired","timestamp":"2025-08-09T13:31:10.117Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-09T14:51:44.506Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-09T14:51:44.510Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-10T04:19:16.728Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-10T04:19:16.733Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers/6895b95d3b42e7a7cecdcec2/view","timestamp":"2025-08-10T05:21:09.199Z"}
+{"level":"error","message":"Login error: Cannot set headers after they are sent to the client","timestamp":"2025-08-10T07:11:02.139Z"}
+{"level":"error","message":"Error 500: Cannot set headers after they are sent to the client","method":"POST","path":"/api/auth/login","stack":"Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:700:11)\n    at ServerResponse.header (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\node_modules\\express\\lib\\response.js:250:15)\n    at ResponseFormatter.formatError (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\interfaces\\response\\IResponseFormatter.ts:15:24)\n    at AuthController.login (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.authenticationController.ts:44:30)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-10T07:11:02.145Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-10T07:26:24.808Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-10T07:27:18.437Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-10T07:28:26.384Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers/688e0405fea8560d90cc9d46/view","timestamp":"2025-08-10T14:14:13.229Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers/688e0405fea8560d90cc9d46/view","timestamp":"2025-08-10T14:14:13.233Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-10T14:14:21.160Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-10T14:14:21.163Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-10T15:14:50.198Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-10T15:19:40.904Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-10T15:19:40.906Z"}
+{"level":"error","message":"Blocked user attempted login: uber@gmail.com, role: employer","timestamp":"2025-08-11T03:57:46.891Z"}
+{"level":"error","message":"Login failed for email uber@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-11T03:57:46.891Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-11T03:57:46.892Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers/6889984e29e98c5230f0b2ee/view","timestamp":"2025-08-11T04:21:36.576Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers/6889984e29e98c5230f0b2ee/view","timestamp":"2025-08-11T04:21:36.582Z"}
+{"level":"error","message":"Blocked user attempted login: hr@xylem.com, role: employer","timestamp":"2025-08-11T05:11:00.060Z"}
+{"level":"error","message":"Login failed for email hr@xylem.com: Your account has been blocked by admin","timestamp":"2025-08-11T05:11:00.060Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-11T05:11:00.060Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-11T05:30:51.279Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/employers","timestamp":"2025-08-11T05:30:51.292Z"}
+{"level":"error","message":"Blocked user attempted login: arjun@gmail.com, role: candidate","timestamp":"2025-08-11T06:04:52.870Z"}
+{"level":"error","message":"Login failed for email arjun@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-11T06:04:52.871Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-11T06:04:52.871Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-11T06:06:40.288Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-11T06:07:36.178Z"}
+{"level":"error","message":"Blocked user attempted login: arjun@gmail.com, role: candidate","timestamp":"2025-08-11T06:26:09.442Z"}
+{"level":"error","message":"Login failed for email arjun@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-11T06:26:09.442Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-11T06:26:09.442Z"}
+{"level":"error","message":"Google Sign-In error: Cannot read properties of undefined (reading 'formatSuccess')","timestamp":"2025-08-11T06:36:24.676Z"}
+{"level":"error","message":"Error 500: Cannot read properties of undefined (reading 'formatError')","method":"POST","path":"/api/auth/google-signin","stack":"TypeError: Cannot read properties of undefined (reading 'formatError')\n    at AuthGoogleController.googleSignIn (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.googleController.ts:70:30)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-11T06:36:24.679Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-11T06:43:06.934Z"}
+{"level":"error","message":"Error 500: Cannot read properties of undefined (reading 'formatError')","method":"POST","path":"/api/auth/verify","stack":"TypeError: Cannot read properties of undefined (reading 'formatError')\n    at AuthOtpController.verify (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.otpController.ts:100:37)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-11T06:43:06.939Z"}
+{"level":"error","message":"Error 500: Cannot read properties of undefined (reading 'formatError')","method":"POST","path":"/api/auth/verify","stack":"TypeError: Cannot read properties of undefined (reading 'formatError')\n    at AuthOtpController.verify (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.otpController.ts:100:37)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-11T06:43:11.852Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-11T06:43:44.614Z"}
+{"level":"error","message":"Error 500: Cannot read properties of undefined (reading 'formatError')","method":"POST","path":"/api/auth/verify","stack":"TypeError: Cannot read properties of undefined (reading 'formatError')\n    at AuthOtpController.verify (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.otpController.ts:100:37)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-11T06:43:44.618Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-11T06:43:49.508Z"}
+{"level":"error","message":"Error 500: Cannot read properties of undefined (reading 'formatError')","method":"POST","path":"/api/auth/verify","stack":"TypeError: Cannot read properties of undefined (reading 'formatError')\n    at AuthOtpController.verify (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.otpController.ts:100:37)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-11T06:43:49.510Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-11T06:44:04.497Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-11T06:44:26.050Z"}
+{"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-11T06:44:51.760Z"}
+{"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-11T06:44:51.761Z"}
+{"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-11T06:44:54.329Z"}
+{"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-11T06:44:54.330Z"}
+{"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-11T06:45:02.968Z"}
+{"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-11T06:45:02.968Z"}
+{"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-11T06:46:02.149Z"}
+{"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-11T06:46:02.149Z"}
