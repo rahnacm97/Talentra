@@ -55,6 +55,7 @@ export class AdminEmployerService{
     }
   }
 
+  //Employer Verification
   async verifyEmployer(id: string): Promise<IEmployer | null> {
     try {
       const employer = await this.employerRepository.verifyEmployer(id);
@@ -69,6 +70,7 @@ export class AdminEmployerService{
     }
   }
 
+  //Employer rejection
   async rejectEmployer(id: string, rejectionReason: string): Promise<IEmployer | null> {
     try {
       const employer = await this.employerRepository.rejectEmployer(id, rejectionReason);

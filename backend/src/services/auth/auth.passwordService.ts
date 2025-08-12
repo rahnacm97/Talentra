@@ -27,6 +27,7 @@ export class PasswordService implements IPasswordService {
     this.passwordHasher = passwordHasher;
   }
 
+  //Paswword Comparison
   async comparePassword(plainPassword: string, hashedPassword: string): Promise<boolean> {
     try {
       const isMatch = await this.passwordHasher.comparePassword(plainPassword, hashedPassword);
@@ -38,6 +39,7 @@ export class PasswordService implements IPasswordService {
     }
   }
 
+  //Forgot Password
   async forgotPassword(email: string): Promise<{ success: boolean; message: string }> {
     try {
       const userResult = await this.userLookupService.findByEmail(email);
@@ -54,6 +56,7 @@ export class PasswordService implements IPasswordService {
     }
   }
 
+  //Reset Password
   async resetPassword(email: string, newPassword: string): Promise<{ success: boolean; message: string }> {
     try {
       const otpRecord = await this.otpService.verifyOtpRecord(email, 'forgot-password');

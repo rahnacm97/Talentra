@@ -16,6 +16,7 @@ export class AuthController {
     this.responseFormatter = responseFormatter;
   }
 
+  //Login
   login = async (req: Request, res: Response) => {
     try {
       const { email, password } = req.body;
@@ -38,6 +39,7 @@ export class AuthController {
     }
   };
 
+  //Logout
   logout = async (req: AuthRequest, res: Response) => {
     try {
       const { refreshToken } = req.body;

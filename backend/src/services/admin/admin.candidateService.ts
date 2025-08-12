@@ -39,6 +39,7 @@ export class AdminCandidateService {
     }
   }
 
+  //Candidate Blocking
   async toggleCandidateBlocked(id: string, blocked: boolean): Promise<ICandidate | null> {
     try {
       const candidate = await this.candidateRepository.updateBlockedStatus(id, blocked);

@@ -14,7 +14,7 @@ export class CandidateAuthRepository implements IUserAuthRepository {
       const user = await this.repository.findByEmail(email);
       if (!user) return null;
       return {
-        _id: user._id!.toString(), // Convert ObjectId to string
+        _id: user._id!.toString(), 
         name: user.name,
         googleId: user.googleId,
         blocked: user.blocked,
@@ -30,7 +30,7 @@ export class CandidateAuthRepository implements IUserAuthRepository {
     try {
       const user = await this.repository.create(data);
       return {
-        _id: user._id!.toString(), // Convert ObjectId to string
+        _id: user._id!.toString(), 
         name: user.name,
         googleId: user.googleId!,
         blocked: user.blocked || false,
@@ -49,7 +49,7 @@ export class CandidateAuthRepository implements IUserAuthRepository {
         return null;
       }
       return {
-        _id: user._id!.toString(), // Convert ObjectId to string
+        _id: user._id!.toString(), 
         name: user.name,
         googleId: user.googleId!,
         blocked: user.blocked || false,

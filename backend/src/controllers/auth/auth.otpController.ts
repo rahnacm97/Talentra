@@ -12,6 +12,7 @@ export class AuthOtpController {
     this.validator = validator;
   }
 
+  //Signing Up
   signup = async (req: Request, res: Response) => {
     try {
       const { email, password, fullName, phoneNumber, role } = req.body;
@@ -27,6 +28,7 @@ export class AuthOtpController {
     }
   };
 
+  //Otp Verification
   verify = async (req: Request, res: Response) => {
     try {
       const { email, otp, purpose = 'signup' } = req.body;
@@ -42,6 +44,7 @@ export class AuthOtpController {
     }
   };
 
+  //Otp Resend
   resendOtp = async (req: Request, res: Response) => {
     try {
       const { email } = req.body;

@@ -1,4 +1,3 @@
-
 import { Request, Response, NextFunction } from 'express';
 import { ILogger } from '../../interfaces/logger/ILogger';
 import { ISocketEventHandler } from '../../interfaces/socket/ISocketEventHandler';

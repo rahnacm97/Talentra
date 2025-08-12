@@ -16,6 +16,7 @@ export class EmailService implements IEmailService {
     });
   }
 
+  //Otp sending to mail
   async sendOtpEmail(email: string, otp: string, fullName: string): Promise<void> {
     try {
       const mailOptions = {
@@ -31,6 +32,7 @@ export class EmailService implements IEmailService {
     }
   }
 
+  //Verification to mail
   async sendVerificationEmail(email: string, name: string, verified: boolean, rejectionReason?: string): Promise<void> {
     try {
       const mailOptions = {

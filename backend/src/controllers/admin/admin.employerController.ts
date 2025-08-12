@@ -1,4 +1,3 @@
-
 import { Request, Response, NextFunction } from "express";
 import { ILogger } from "../../interfaces/logger/ILogger";
 import { ISocketEventHandler } from "../../interfaces/socket/ISocketEventHandler";
@@ -63,7 +62,7 @@ export class AdminEmployerController {
   }
 
   //Employer verification
-  async verifyEmployer(req: Request, res: Response, next: NextFunction): Promise<void> {
+  verifyEmployer = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { id } = req.params;
       if (!id) {
@@ -81,7 +80,7 @@ export class AdminEmployerController {
   }
 
   //Employer rejection
-  async rejectEmployer(req: Request, res: Response, next: NextFunction): Promise<void> {
+  rejectEmployer = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { id } = req.params;
       const { rejectionReason } = req.body;

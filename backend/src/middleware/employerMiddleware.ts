@@ -36,7 +36,6 @@ export const employerMiddleware = (
       return res.status(403).json({ success: false, error: 'Employer access required' });
     }
 
-    // For /employer/verification, ensure employer is updating their own profile
     if (req.path === '/employer/verification') {
       if (decoded.userId !== req.user?.userId) {
         logger.warn('Employer attempted to access another user’s profile', {

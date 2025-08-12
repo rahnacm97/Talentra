@@ -6,14 +6,12 @@ import { IOtpService } from '../../interfaces/otp/IOtpService';
 import { IOtpRepository } from '../../interfaces/otp/IOtpRepository';
 import { logger } from '../../utils/logger';
 
-// Strategy interface for handling OTP purposes
 interface PurposeHandler {
   purpose: string;
   handleOtpVerification(otpRecord: any, userService: IUserService): Promise<{ success: boolean; message: string; userType?: string }>;
   prepareOtpData(email: string, otp: string, fullName: string, token: string, additionalData: any): any;
 }
 
-// Handler for signup purpose
 class SignupPurposeHandler implements PurposeHandler {
   purpose = 'signup';
 
@@ -56,7 +54,6 @@ class SignupPurposeHandler implements PurposeHandler {
   }
 }
 
-// Handler for forgot-password purpose
 class ForgotPasswordPurposeHandler implements PurposeHandler {
   purpose = 'forgot-password';
 

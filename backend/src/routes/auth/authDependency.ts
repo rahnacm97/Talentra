@@ -39,7 +39,7 @@ export interface IControllers {
 }
 
 export function initializeDependencies(): IControllers {
-  // Initialize repositories
+  // Initializing repositories
   const candidateRepository = new CandidateRepository(new MongooseCandidateAdapter(), logger);
   const employerRepository = new EmployerRepository(new MongooseEmployerAdapter(), logger);
   const adminRepository = new AdminRepository(new MongooseAdminAdapter());
@@ -51,7 +51,7 @@ export function initializeDependencies(): IControllers {
   const authRepository = new AuthRepository(new MongooseTokenStorage());
   const tokenStorage = new AuthRepositoryAdapter(authRepository);
 
-  // Initialize services
+  // Initializing services
   const userService = new UserService();
   const emailService = new EmailService(logger);
   const jwtService = new JwtService();
@@ -67,7 +67,7 @@ export function initializeDependencies(): IControllers {
   const validator = new Validator();
   const responseFormatter = new ResponseFormatter();
 
-  // Initialize controllers
+  // Initializing controllers
   const authController = new AuthController(authService, responseFormatter);
   const authGoogleController = new AuthGoogleController(googleAuthService);
   const authPasswordController = new AuthPasswordController(passwordService, validator, responseFormatter);

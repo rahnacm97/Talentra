@@ -9,6 +9,7 @@ export class AuthGoogleController {
     this.authService = authService;
   }
 
+  // Google signin
   googleSignIn = async (req: Request, res: Response) => {
     try {
       const { idToken, role } = req.body;
