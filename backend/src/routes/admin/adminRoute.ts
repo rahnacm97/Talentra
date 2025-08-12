@@ -1,10 +1,15 @@
-import { Router, Request, Response, NextFunction } from 'express';
+import { Router } from 'express';
+import { io } from '../../app';
+import { logger } from '../../utils/logger';
 import { authMiddleware } from '../../middleware/authMiddleware';
 import { validateSigninInput, validateLogoutInput } from '../../middleware/validator/adminValidator';
-import { AppDependencies } from '../../appDependency';
 import { adminMiddleware } from '../../middleware/adminMiddleware';
+import { initializeDependencies, AppDependencies } from '../../appDependency';
 
-export default function adminRoutes(dependencies: AppDependencies): Router {
+export default function adminRoutes(): Router {
+  // Initializing dependencies
+  const dependencies: AppDependencies = initializeDependencies(io, logger);
+
   const { adminController, adminCandidateController, adminEmployerController } = dependencies;
   const router = Router();
 
@@ -22,7 +27,3 @@ export default function adminRoutes(dependencies: AppDependencies): Router {
 
   return router;
 }
-
-
-
-

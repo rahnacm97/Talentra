@@ -19,6 +19,7 @@ export class AuthService implements IAuthService {
     this.passwordService = passwordService;
   }
 
+  //Login
   async login(email: string, password: string): Promise<AuthResponse | null> {
     try {
       const roles: ('admin' | 'candidate' | 'employer')[] = ['admin', 'candidate', 'employer'];
@@ -91,6 +92,7 @@ export class AuthService implements IAuthService {
     }
   }
 
+  //Logout
   async refreshToken(refreshToken: string): Promise<{ accessToken: string; role: string } | null> {
     try {
       const payload = await this.tokenService.verifyRefreshToken(refreshToken);

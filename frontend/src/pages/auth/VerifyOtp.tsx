@@ -61,9 +61,7 @@ const VerifyOtp: React.FC<VerifyOtpProps> = () => {
     setLoading(true);
     try {
       const endpoint = '/auth/verify';
-      //console.log('Sending to endpoint:', endpoint, 'with data:', { email, otp, purpose });
       await axios.post(endpoint, { email, otp, purpose });
-      //console.log('Verification response:', response.data);
       toast.success(purpose === 'forgot-password' ? 'OTP verified successfully' : 'Email verified successfully');
       navigate(purpose === 'forgot-password' ? `/reset-password?email=${encodeURIComponent(email)}` : '/login');
     } catch (error: any) {
@@ -74,12 +72,11 @@ const VerifyOtp: React.FC<VerifyOtpProps> = () => {
   };
 
   const handleResend = async () => {
-    if (resendCooldown > 0) return;
+    if (otpExpiration !== null || resendCooldown > 0) return;
 
     setLoading(true);
     try {
       const endpoint = purpose === 'forgot-password' ? '/auth/forgot-password' : '/auth/resend-otp';
-      console.log('Resending OTP to:', endpoint, 'with email:', email);
       await axios.post(endpoint, { email });
       setResendCooldown(30);
       setOtpExpiration(60);
@@ -137,10 +134,10 @@ const VerifyOtp: React.FC<VerifyOtpProps> = () => {
             </p>
             <button
               onClick={handleResend}
-              disabled={resendCooldown > 0 || loading}
+              disabled={otpExpiration !== null || resendCooldown > 0 || loading}
               className="text-blue-600 mt-2 hover:underline disabled:text-gray-400 disabled:cursor-not-allowed"
             >
-              Didn't receive any code? Resend {resendCooldown > 0 ? `(${resendCooldown}s)` : ''}
+              Didn't receive any code? Resend
             </button>
           </div>
         )}

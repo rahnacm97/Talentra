@@ -277,3 +277,32 @@
 {"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-11T06:45:02.968Z"}
 {"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-11T06:46:02.149Z"}
 {"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-11T06:46:02.149Z"}
+{"level":"error","message":"Blocked user attempted login: rahnacm97@gmail.com, role: candidate","timestamp":"2025-08-12T03:50:15.846Z"}
+{"level":"error","message":"Login failed for email rahnacm97@gmail.com: Your account has been blocked by admin","timestamp":"2025-08-12T03:50:15.847Z"}
+{"level":"error","message":"Login error: Login failed: Your account has been blocked by admin","timestamp":"2025-08-12T03:50:15.847Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-12T03:50:56.203Z"}
+{"code":"TokenExpiredError","error":"jwt expired","level":"error","message":"Invalid token","method":"GET","path":"/candidates","timestamp":"2025-08-12T03:50:56.206Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-12T06:29:08.068Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-12T06:46:03.766Z"}
+{"level":"error","message":"Verification error: Invalid OTP","timestamp":"2025-08-12T06:46:03.767Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-12T06:46:38.492Z"}
+{"level":"error","message":"Verification error: Invalid OTP","timestamp":"2025-08-12T06:46:38.492Z"}
+{"level":"error","message":"OTP verification failed: OTP has expired","timestamp":"2025-08-12T06:47:29.724Z"}
+{"level":"error","message":"Verification error: OTP has expired","timestamp":"2025-08-12T06:47:29.724Z"}
+{"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-12T06:48:00.160Z"}
+{"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-12T06:48:00.160Z"}
+{"level":"error","message":"Reset password error: OTP has expired","timestamp":"2025-08-12T06:48:00.161Z"}
+{"level":"error","message":"Error 500: OTP has expired","method":"POST","path":"/api/auth/reset-password","stack":"Error: OTP has expired\n    at PasswordService.resetPassword (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\auth\\auth.passwordService.ts:96:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AuthPasswordController.resetPassword (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.passwordController.ts:44:22)","timestamp":"2025-08-12T06:48:00.167Z"}
+{"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-12T06:48:02.814Z"}
+{"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-12T06:48:02.814Z"}
+{"level":"error","message":"Reset password error: OTP has expired","timestamp":"2025-08-12T06:48:02.815Z"}
+{"level":"error","message":"Error 500: OTP has expired","method":"POST","path":"/api/auth/reset-password","stack":"Error: OTP has expired\n    at PasswordService.resetPassword (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\auth\\auth.passwordService.ts:96:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AuthPasswordController.resetPassword (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.passwordController.ts:44:22)","timestamp":"2025-08-12T06:48:02.815Z"}
+{"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-12T06:48:08.184Z"}
+{"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-12T06:48:08.185Z"}
+{"level":"error","message":"Reset password error: OTP has expired","timestamp":"2025-08-12T06:48:08.185Z"}
+{"level":"error","message":"Error 500: OTP has expired","method":"POST","path":"/api/auth/reset-password","stack":"Error: OTP has expired\n    at PasswordService.resetPassword (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\auth\\auth.passwordService.ts:96:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AuthPasswordController.resetPassword (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.passwordController.ts:44:22)","timestamp":"2025-08-12T06:48:08.186Z"}
+{"level":"error","message":"Reset password: OTP expired for email arjun@gmail.com","timestamp":"2025-08-12T06:48:35.999Z"}
+{"level":"error","message":"Reset password failed for email arjun@gmail.com: OTP has expired","timestamp":"2025-08-12T06:48:35.999Z"}
+{"level":"error","message":"Reset password error: OTP has expired","timestamp":"2025-08-12T06:48:35.999Z"}
+{"level":"error","message":"Error 500: OTP has expired","method":"POST","path":"/api/auth/reset-password","stack":"Error: OTP has expired\n    at PasswordService.resetPassword (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\services\\auth\\auth.passwordService.ts:96:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at AuthPasswordController.resetPassword (D:\\BROTOTYPE\\WORK_SCAPE\\backend\\src\\controllers\\auth\\auth.passwordController.ts:44:22)","timestamp":"2025-08-12T06:48:36.004Z"}
+{"level":"error","message":"OTP verification failed: Invalid OTP","timestamp":"2025-08-12T06:49:02.298Z"}

@@ -1,4 +1,3 @@
-
 import { IUserAuthService } from '../../interfaces/auth/IUserAuthService';
 import { IUserAuthRepository } from '../../interfaces/auth/IUserAuthRepository';
 import { IAdminRepository } from '../../interfaces/users/admin/IAdminRepository';
@@ -43,7 +42,7 @@ export class UserAuthService implements IUserAuthService {
 
     let user = await repository.findByEmail(email);
     if (!user) {
-      const userData: any = { email, name, blocked: false, verified: false }; // Default verified to false for new users
+      const userData: any = { email, name, blocked: false, verified: false }; 
       if (providerId) userData.googleId = providerId;
       if (password) userData.password = password;
       if (role.toLowerCase() === 'candidate') {

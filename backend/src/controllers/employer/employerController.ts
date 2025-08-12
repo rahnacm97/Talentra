@@ -32,6 +32,7 @@ export class EmployerController {
     }
   };
 
+  //Profile updation
   updateProfile = async (req: AuthRequest, res: Response) => {
     try {
       if (!req.user) {

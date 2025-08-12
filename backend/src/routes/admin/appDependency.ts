@@ -1,33 +1,33 @@
 import { Server } from 'socket.io';
-import { ILogger } from './interfaces/logger/ILogger';
-import { JwtService } from './utils/jwtUtils';
-import SocketService from './services/socket/socketService';
-import { SocketEventHandler } from './services/socket/SocketEventHandler';
-import { AdminCandidateService } from './services/admin/admin.candidateService';
-import { MongooseCandidateAdapter, CandidateRepository } from './repositories/candidate/candidateRepository';
-import { AdminCandidateController } from './controllers/admin/admin.candidateController';
-import { AdminAuthService } from './services/admin/admin.authService';
-import { AuthService } from './services/auth/auth.authenticationService';
-import { AdminRepository, MongooseAdminAdapter } from './repositories/admin/adminRepository';
-import { AuthRepository, MongooseTokenStorage } from './repositories/auth/authRepository';
-import { AdminController } from './controllers/admin/admin.authController';
-import { AdminEmployerController } from './controllers/admin/admin.employerController';
-import { EmployerRepository, MongooseEmployerAdapter } from './repositories/employer/employerRepository';
-import { AdminEmployerService } from './services/admin/admin.employerService';
-import { UserAuthService } from './services/auth/userAuthService';
-import { TokenService } from './services/token/tokenService';
-import { PasswordService } from './services/auth/auth.passwordService';
-import { CandidateAuthRepository } from './repositories/candidate/candidateAuthRepository';
-import { EmployerAuthRepository } from './repositories/employer/employerAuthRepository';
-import { UserService } from './services/auth/userService';
-import { EmailService } from './services/auth/emailService';
-import { OtpService } from './services/auth/auth.otpService';
-import { UserLookupService } from './services/auth/userLookUpService';
-import { BcryptPasswordHasher } from './utils/passwordHasher';
-import { OtpRepository } from './repositories/otp/otpRepository';
-import { AuthRepositoryAdapter } from './repositories/auth/authRepositoryAdapter';
-import { IEmailService } from './interfaces/auth/IEmailService'; 
-import { ResponseFormatter, IResponseFormatter } from './interfaces/response/IResponseFormatter';
+import { ILogger } from '../../interfaces/logger/ILogger';
+import { JwtService } from '../../utils/jwtUtils';
+import SocketService from '../../services/socket/socketService';
+import { SocketEventHandler } from '../../services/socket/SocketEventHandler';
+import { AdminCandidateService } from '../../services/admin/admin.candidateService';
+import { MongooseCandidateAdapter, CandidateRepository } from '../../repositories/candidate/candidateRepository';
+import { AdminCandidateController } from '../../controllers/admin/admin.candidateController';
+import { AdminAuthService } from '../../services/admin/admin.authService';
+import { AuthService } from '../../services/auth/auth.authenticationService';
+import { AdminRepository, MongooseAdminAdapter } from '../../repositories/admin/adminRepository';
+import { AuthRepository, MongooseTokenStorage } from '../../repositories/auth/authRepository';
+import { AdminController } from '../../controllers/admin/admin.authController';
+import { AdminEmployerController } from '../../controllers/admin/admin.employerController';
+import { EmployerRepository, MongooseEmployerAdapter } from '../../repositories/employer/employerRepository';
+import { AdminEmployerService } from '../../services/admin/admin.employerService';
+import { UserAuthService } from '../../services/auth/userAuthService';
+import { TokenService } from '../../services/token/tokenService';
+import { PasswordService } from '../../services/auth/auth.passwordService';
+import { CandidateAuthRepository } from '../../repositories/candidate/candidateAuthRepository';
+import { EmployerAuthRepository } from '../../repositories/employer/employerAuthRepository';
+import { UserService } from '../../services/auth/userService';
+import { EmailService } from '../../services/auth/emailService';
+import { OtpService } from '../../services/auth/auth.otpService';
+import { UserLookupService } from '../../services/auth/userLookUpService';
+import { BcryptPasswordHasher } from '../../utils/passwordHasher';
+import { OtpRepository } from '../../repositories/otp/otpRepository';
+import { AuthRepositoryAdapter } from '../../repositories/auth/authRepositoryAdapter';
+import { IEmailService } from '../../interfaces/auth/IEmailService';
+import { ResponseFormatter, IResponseFormatter } from '../../interfaces/response/IResponseFormatter';
 
 export interface AppDependencies {
   adminCandidateController: AdminCandidateController;
@@ -37,7 +37,6 @@ export interface AppDependencies {
 }
 
 export function initializeDependencies(io: Server, logger: ILogger): AppDependencies {
-
   const responseFormatter: IResponseFormatter = new ResponseFormatter();
 
   // Initializing core services
@@ -77,7 +76,6 @@ export function initializeDependencies(io: Server, logger: ILogger): AppDependen
   const adminRepository2 = new AdminRepository(adapter);
   const adminAuthService = new AdminAuthService(adminRepository2, authRepository, jwtService);
   const adminController = new AdminController(adminAuthService, authService, responseFormatter);
-
 
   // Initializing employer controller
   const dbEmployerAdapter = new MongooseEmployerAdapter();
