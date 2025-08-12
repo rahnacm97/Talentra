@@ -86,7 +86,7 @@ const Homepage: React.FC = () => {
               Find your dream job or hire top talent today!
             </p>
             <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
-              Get Started
+              Get Started for your bright future!
             </button>
           </div>
           <img className="h-[250px] mt-12" src={heroImage} alt="" />
